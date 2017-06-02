@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html> <!--I feel like there were some other declarations that should go in a page, but I'm not sure what they are.-->
+  <head>
+    <title>Matt's HTML Breakdown</title>
+  </head>
+  <body>
+    <div><!--If I'm doing this right, this is my box for the first header and the first two paragraphs.-->
+      <div><!--I may want to format my header differently than the following paragraphs.-->
+        <h3>Welcome to HTML!</h3>
+      </div>
+      <div><!--This is my paragraphs box.-->
+        <p>
+          HTML (Hypertext Markup Lanuage) is a reasonably straightforward language that helps computers take standard
+          text and turn it into something more aesthetically appealing. It's assisted by CSS (Cascading Style Sheets),
+          a script that can  quickly format many facets of your code.
+        </p>
+        <p>
+          HTML works by using tags. Like any language, it seems to have a few quirks. Some tags, like <b>&lt;br&gt;</b>, operate
+          alone to accomplish a formatting task (such as a line break). Other tags, like <b>&lt;p&gt;</b>, require a closing tag
+          (such as <b>&lt;/p&gt;</b>) and format everything in between the tags accordingly.
+        </p>
+      </div>
+    </div>
+    <div><!--This is my big ordered list box.-->
+      <div><!--again, separating my header.-->
+        <h3>A Variety of Options</h3>
+      </div>
+      <div><!--I'm putting my paragraph and list into one box, but also their own boxes in case I want to format them separately later.-->
+        <div><!--The ordered list paragraph.-->
+          <p>
+            HTML also seems to have some built-in redundancy--something I hope to learn more about in the future. Some tasks can
+            be accomplished using more than one tag:
+          </p>
+        </div>
+        <div> <!--The ordered list itself.-->
+          <ol>
+            <li>
+              The <b>&lt;br&gt;</b> tag breaks your text to the next line, but so does the <b>&lt;p&gt;</b> tag. It turns out the <b>&lt;p&gt;</b>
+              actually creates a box of sorts, which we learned about later.
+            </li>
+            <li>
+              The <b>&lt;i&gt;</b> tag <i>italicizes</i> your text, but the <b>&lt;em&gt;</b> tag does <em>the same thing.</em>
+            </li>
+            <li>
+              The <b>&lt;b&gt;</b> tag <b>bolds</b> your text, but so does the <b>&lt;strong&gt;</b> tag. The material hinted at a difference
+              between formatting text and emphasizing content. I would like to better understand this.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div><!--Big box for the takeaway paragraph.-->
+      <div><!--Separating the header.-->
+        <h3>The Big Lessson</h3>
+        </div>
+        <div><!--The paragraph itself.-->
+          <p>
+            My best takeaway for this lesson has been understanding the use of <b>&lt;div&gt;</b> tags. Imagine everything on your webpage broken into
+            boxes, and then break each of those boxes into its own div. You can assign classes and id's to your divs, which helps the CSS identify which
+            parts of your code to format. Once the important parts are <i>div</i>ided into boxes, presumably CSS can parse and format  those boxes in any
+            number of ways.
+          </p>
+          <p>
+            Spans seem to be just as important as divs, but I haven't immediately seen many uses for them. It seems that a span would be helpful
+            if you wanted to have several inline tags in one block of text, but again--I don't see that happening very often. I'm certain they'll
+            become more useful to me as I learn more.
+          </p>
+        </div>
+      </div>
+      <div><!--Big box for the unordered list.-->
+        <div><!--Separating the header.-->
+          <h3>
+            The Unordered List
+          </h3>
+        </div>
+        <div><!--grouping my paragraph and list, but also boxing them separately.-->
+          <div><!--The unordered list paragraph.-->
+            <p>
+              Finally, I wanted to mention a couple of the bread-and-butter tags.
+            </p>
+          </div>
+          <div> <!--The unordered list itself.-->
+            <ul>
+              <li>
+                The <b>&lt;a&gt;</b> tag is standard fare for linking to other places--such as my new <a href="https://udacity.com">favorite site</a>.
+              </li>
+              <li>
+                The <b>&lt;img&gt;</b> tag imports pictures from some reachable source--and, of course, should exist in its own div.
+              </li>
+              <li>
+                All the  tags I really know have already been used, but an unordered list really needs at least 3 points.
+              </li>
+            <ul>
+          </div>
+        </div>
+      </div>
+    <div><!--Big box for the final paragraph-->
+      <div><!--Separating the header.-->
+        <h3>
+          The End
+        </h3>
+      </div>
+      <div><!--The final paragraph box.-->
+        <p>
+          That pretty much sums up my HTML knowledge at this point. I suck at notes, so I wrote an essay instead. My personal approach was to write
+          out all the text in my editor, and place divs and such afterward. Hopefully that approach continues to work.
+        </p>
+        <p>
+          So far, html seems like a tremendous amount of work to get my web page to look like a decent word document. I look forward to learning how
+          CSS can shape it into something better!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
